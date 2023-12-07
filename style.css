@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .nav-tabs {
+    background-color: white;
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  
+  .cardupper {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  
+  .text-bg-dark {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  
+  .accordion-button {
+    background-color: #343a40;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  
+  .card {
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mainstaff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: 0 1rem 3rem rgba(black, .175);
+  }
+  
+  .mainstaff :hoover {
+    color: black;
+    font-size: medium;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+  .ourstaff {
+    align-items: center;
+  }
+  
+  .footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+  }
+  
+  .gallery img {
+    border-radius: 20px;
+    filter: drop-shadow(1px 3px 0.2rem rgba(128, 128, 128, 0.462));
+  }

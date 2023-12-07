@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallery img {
+    width: 30%;
+    padding: 15px;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.headh1 {
+    text-align: center;
+}
+
+.headh2 {
+    text-align: center;
+}
+
+.graduation {
+    text-align: center;
+}
+
+.gallery img {
+    border-radius: 20px;
+    filter: drop-shadow(1px 3px 0.2rem rgba(128, 128, 128, 0.462));
+}
+
+.footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+  width:100%;
+}
